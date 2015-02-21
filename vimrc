@@ -176,8 +176,8 @@ filetype plugin indent on     " required!
 " Color theme (drawing from altercation/vim-colors-solarized Bundle)
 syntax enable
 set background=dark
-colorscheme candy
-color candy
+colorscheme wombat
+" color solarized
 
 " For MacVim
 set guifont=Monaco:h16
@@ -245,3 +245,6 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 set undodir=.vimdir
 set undofile
+
+set spelllang=pt_br
+
